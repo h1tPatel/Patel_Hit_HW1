@@ -1,0 +1,56 @@
+*{
+    
+    background-color: aqua;
+
+}
+#pages
+{
+    float: right;
+    margin: 10px;
+}
+header
+{
+    font-size: x-large;
+    margin: 0 0 0 15rem;
+}
+
+.hidden
+{
+display: none;
+}
+
+
+img
+{
+    height: 200px;
+    width: 150px;
+    border-radius: 40%;
+    border-style: solid;
+    border-width: 5px;
+    
+}
+#feedback
+{
+    border-width: 10px;
+    border-style: solid;
+    border-color: black;
+}
+#list
+{
+    float: left;
+}
+button
+{
+    background-color: black;
+    color: beige;
+    margin: 1rem 0 0 0;
+    border: none;
+    padding: 4px;
+}
+button:hover
+{
+    background-color: white;
+    color : black;
+    transform: scale3d(1.5, 1.2, 0.3);
+    transition : ease;
+}
